@@ -33,6 +33,7 @@ public class Rectangle {
     }
 
 //    Getter and setter
+//    Getters and setters are special methods used to access (get) and update (set) the value of a private field in a class.
 
     public double getLength() {
         return length;
