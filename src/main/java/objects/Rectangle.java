@@ -8,7 +8,7 @@ public class Rectangle {
     private double width;
     private int sides = 4;
 
-//    Constructors
+//    Constructors (default one)
 
     public Rectangle(){
         setLength(0);
