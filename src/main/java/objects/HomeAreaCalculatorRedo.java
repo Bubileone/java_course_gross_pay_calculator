@@ -13,6 +13,7 @@ public class HomeAreaCalculatorRedo {
         Rectangle room2 = calculator.getRoom();
         double totalArea = calculator.calculateAreaOfRoom(room1, room2);
         System.out.println("Area of both rooms: " + totalArea);
+        calculator.scanner.close();
 
     }
 
@@ -28,5 +29,7 @@ public class HomeAreaCalculatorRedo {
     public double calculateAreaOfRoom(Rectangle room1, Rectangle room2){
         return room1.calculateArea() + room2.calculateArea();
     }
+
+
 
 }
